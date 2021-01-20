@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'LightRoboto';
+  src: local('Roboto'), url('../../../assets/fonts/RobotoLight300/Roboto-Regular.ttf') format('truetype');
+}
+
+.navButtons {
+  float: right;
+  color: white;
+  padding-right: 3em;
+  padding-top: 1.5em;
+  font-family: LightRoboto;
+  font-size: large;
+  font-weight: lighter;
+}
+
+.anchorElements {
+  color: white;
+}
+
+.topNav {
+  margin: 0;
+  padding: 1em;
+  padding-right: 5em;
+  padding-bottom: 1em;
+  background: rgba(0, 0, 0, 0.35);
+  z-index: 1000;
+  position: fixed;
+  width: 100%;
+}
+
+.navImage {
+  padding-left: 5em;
+}
+
+.selected {
+  text-decoration: underline;
+}

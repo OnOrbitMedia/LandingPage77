@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto'), url('../../../assets/fonts/RobotoBold700/Roboto-Bold.ttf') format('truetype');
+}
+
+.title {
+  font-family: Roboto;
+  color: white;
+  // padding-left: 5em;
+  padding-top: 6em;
+  text-align: center;
+  font-size: 7vh;
+}
+
+.arrow {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transform: rotate(90deg);
+  padding-top: 4em;
+}
