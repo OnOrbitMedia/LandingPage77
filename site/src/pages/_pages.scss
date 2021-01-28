@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'LatoLight';
+    src: local('Lato'), url('../../assets/fonts/Lato/Lato-Light.ttf') format('truetype');
+}
+
+.buttonDiv {
+    position: relative;
+    background-color: transparent;
+}
+
+.servicesDiv {
+    position: relative;
+}
+
+.progress-bar-div {
+    position: relative;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.soon-div {
+    position: relative;
+    margin-top: .75%;
+    margin-left: 10%;
+}
+
+.soon-text {
+
+}
+
+.tag-div {
+    //height: 100vh; /* Magic here */
+    display: flex;
+    justify-content: center;
+    margin-top: 12%;
+}
+
+.tag-text {
+}
+
+.logo {
+    position: relative;
+    width: 14%;
+    height: auto;
+    margin-top: 3%;
+    margin-left: 10%;
+}
