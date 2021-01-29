@@ -10,7 +10,7 @@ function Trail({ children, ...props }) {
       config: { mass: 5, tension: 2000, friction: 200 },
       opacity: 1,
       x: 0,
-      height: 45,
+      height: 50,
       from: { opacity: 0, x: 20, height: 0 },
     })
     return (
@@ -30,11 +30,11 @@ function Trail({ children, ...props }) {
   }
 
 const Services = (props) => (
-    <Trail onClick={() => set((state) => !state)} >
-        <li>digital marketing</li>
-        <li>website development</li>
-        <li>photography</li>
-        <li>videography</li>
+    <Trail>
+        <span>digital marketing</span>
+        <span>website development</span>
+        <span>photography</span>
+        <span>videography</span>
     </Trail>
 );
 
